@@ -1,0 +1,7 @@
+// TODO: サーバー側でやりたいことを列挙
+
+import express from "express";
+import http from "http";
+
+const app = express();
+const httpServer = http.createServer(app);
